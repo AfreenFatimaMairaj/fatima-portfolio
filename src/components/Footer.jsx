@@ -25,7 +25,7 @@ function Footer() {
         <div className="flex justify-center gap-6 mt-8">
 
           <a
-            href="https://github.com/"
+            href="https://github.com/AfreenFatimaMairaj"
             target="_blank"
             rel="noopener noreferrer"
             className="text-2xl hover:text-blue-400 transition"
@@ -34,7 +34,7 @@ function Footer() {
           </a>
 
           <a
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/afreen-fatima-mairaj-63a92a312/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-2xl hover:text-blue-400 transition"
@@ -43,7 +43,7 @@ function Footer() {
           </a>
 
           <a
-            href="https://instagram.com/"
+            href="https://www.instagram.com/fatimasheikhim/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-2xl hover:text-pink-500 transition"
