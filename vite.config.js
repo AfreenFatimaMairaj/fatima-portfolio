@@ -7,4 +7,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: process.env.VITE.BASE.PATH || "/fatima-portfolio"
 })
