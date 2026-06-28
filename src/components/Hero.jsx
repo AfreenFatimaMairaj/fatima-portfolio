@@ -85,24 +85,23 @@ function Hero() {
 
           {/* Right Side */}
 
-          <div className="flex justify-center">
+<div className="flex justify-center">
+  <div className="relative">
+    {/* Glow */}
+    <div className="absolute inset-0 rounded-full bg-blue-500 blur-3xl opacity-20"></div>
 
-            <div className="relative">
+    {/* Circular Frame */}
+    <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden border-8 border-white dark:border-slate-800 shadow-2xl">
+      <img
+        src={profile}
+        alt="Afreen"
+        className="w-full h-full object-cover object-[center_30%]"
+      />
+    </div>
+  </div>
+</div>
 
-              <div className="absolute inset-0 rounded-full bg-blue-500 blur-3xl opacity-20"></div>
-
-              <img
-                src={profile}
-                alt="Afreen"
-                className="relative w-72 h-72 md:w-96 md:h-96 object-cover rounded-full border-8 border-white dark:border-slate-800 shadow-2xl"
-              />
-
-            </div>
-
-          </div>
-
-        </div>
-
+</div>
       </div>
     </section>
   );
